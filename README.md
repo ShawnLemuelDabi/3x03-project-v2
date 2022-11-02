@@ -1,4 +1,5 @@
 ## Getting Started (For 3x03 members reference)
+With reference to; https://www.youtube.com/watch?v=FcRWgWQale4&ab_channel=CodingwithBasir
 1. Create a next app
 ```bash
 npx create-next-app@latest
@@ -7,6 +8,27 @@ npx create-next-app@latest
 ```bash
 npm install @mui/material @mui/styles @mui/icons-material @emotion/styled @emotion/server @emotion/react --legacy-peer-deps 
 ```
+3.  Install Sanity (In Part 6) then activate coupon code
+```bash
+npm install -g @sanity/cli
+sanity init --coupon codingwithbasir
+```
+
+3.  Install Sanity (In Part 7) (double check vid which file directory it was installed)
+```bash
+npm install @sanity/client --legacy-peer-deps 
+```
+Our Production ID
+```bash
+r1jsz9gv
+```
+Install Sanity Image URL (Part 7)
+```bash
+npm install @sanity/image-url --legacy-peer-deps
+```
+
+## List of errors encountered (nothing disastrous but good to note)
+1. https://nextjs.org/docs/messages/react-hydration-error (At part 5)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
