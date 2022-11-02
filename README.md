@@ -13,8 +13,7 @@ npm install @mui/material @mui/styles @mui/icons-material @emotion/styled @emoti
 npm install -g @sanity/cli
 sanity init --coupon codingwithbasir
 ```
-
-3.  Install Sanity (In Part 7) (double check vid which file directory it was installed)
+4.  Install Sanity (In Part 7) (double check vid which file directory it was installed)
 ```bash
 npm install @sanity/client --legacy-peer-deps 
 ```
@@ -26,11 +25,35 @@ Install Sanity Image URL (Part 7)
 ```bash
 npm install @sanity/image-url --legacy-peer-deps
 ```
-
+5. Install JS Cookie (part 9)
+```bash
+npm i js-cookie --legacy-peer-deps
+```
+6. Install axios, next-connect, notistack (part 10)
+```bash
+npm i axios next-connect notistack --legacy-peer-deps
+```
+7. Install react-dom, react-hook-form (part 13)
+```bash
+npm i react-dom react-hook-form --legacy-peer-deps
+```
 ## List of errors encountered (nothing disastrous but good to note)
 1. https://nextjs.org/docs/messages/react-hydration-error (At part 5)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+2. Install js-cookie manualy (Part 9)
+```bash
+Module not found: Can't resolve 'js-cookie'
+> 1 | import Cookies from 'js-cookie';
+  2 | import { createContext, useReducer } from 'react';
+  3 | 
+  4 | export const Store = createContext();
+
+Import trace for requested module:
+./pages/_app.js
+https://nextjs.org/docs/messages/module-not-found
+```
 
 ## Getting Started (Boilerpate Readme)
 
