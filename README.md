@@ -1,6 +1,12 @@
+## Getting Started (For 3x03 members reference)
+1. Create a next app
+    npx create-next-app@latest
+2. CD into created folder
+    npm install @mui/material @mui/styles @mui/icons-material @emotion/styled @emotion/server @emotion/react --legacy-peer-deps 
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Getting Started (Boilerpate Readme)
 
 First, run the development server:
 
